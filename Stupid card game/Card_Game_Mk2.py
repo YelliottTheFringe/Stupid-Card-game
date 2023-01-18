@@ -161,7 +161,7 @@ def round():
         cbt+=cbet
         sleep(1)
         # Final round
-        if randint(1,10)==9:
+        if randint(5,10)==9:
             print("I dont like you very much.")
             input("")
             quit()
@@ -193,7 +193,7 @@ def round():
         computerFindbet=findDouble(cc1[1],tcrd1[1],tcrd2[1],tcrd3[1],tcrd4[1],tcrd5[1],tcrd6[1],tcrd7[1])+findDouble(cc1[1],tcrd1[1],tcrd2[1],tcrd3[1],tcrd4[1],tcrd5[1],tcrd6[1],tcrd7[1])
         computerFindbet=checkFlush(cc2[0],tcrd1[0],tcrd2[0],tcrd3[0],tcrd4[0],tcrd5[0],tcrd6[0],tcrd7[0],computerFindbet)
         computerFindbet=checkFlush(cc1[0],tcrd1[0],tcrd2[0],tcrd3[0],tcrd4[0],tcrd5[0],tcrd6[0],tcrd7[0],computerFindbet)
-        print("The computer score for winning is ",computerFindbet)
+        print("The computer score is ",computerFindbet)
         sleep(1)
         playerBF=findDouble(pc1[1],tcrd1[1],tcrd2[1],tcrd3[1],tcrd4[1],tcrd5[1],tcrd6[1],tcrd7[1])+findDouble(pc1[1],tcrd1[1],tcrd2[1],tcrd3[1],tcrd4[1],tcrd5[1],tcrd6[1],tcrd7[1])
         playerBF=checkFlush(pc2[0],tcrd1[0],tcrd2[0],tcrd3[0],tcrd4[0],tcrd5[0],tcrd6[0],tcrd7[0],playerBF)
